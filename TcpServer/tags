@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CGenaralSocket	GenaralSocket.h	/^class CGenaralSocket$/;"	c
+GetInstance	GenaralSocket.cpp	/^CGenaralSocket* CGenaralSocket::GetInstance()$/;"	f	class:CGenaralSocket
+InitSocketTCP	GenaralSocket.cpp	/^bool CGenaralSocket::InitSocketTCP()$/;"	f	class:CGenaralSocket
+LISTENQ	GenaralSocket.cpp	4;"	d	file:
+ReceiveData_Tcp	GenaralSocket.cpp	/^bool CGenaralSocket::ReceiveData_Tcp()$/;"	f	class:CGenaralSocket
+ReceiveData_Tcp	GenaralSocket.cpp	/^void  CGenaralSocket::ReceiveData_Tcp()$/;"	f	class:CGenaralSocket
+SERVER_PORT	GenaralSocket.cpp	3;"	d	file:
+SendData_Tcp	GenaralSocket.cpp	/^bool CGenaralSocket::SendData_Tcp()$/;"	f	class:CGenaralSocket
+Socketaddr	GenaralSocket.h	/^    typedef struct sockaddr_in  Socketaddr;$/;"	t	class:CGenaralSocket	typeref:struct:CGenaralSocket::sockaddr_in
+Socketfd	GenaralSocket.h	/^    typedef int Socketfd;$/;"	t	class:CGenaralSocket
+m_pInstance	GenaralSocket.cpp	/^CGenaralSocket* CGenaralSocket::m_pInstance = NULL;$/;"	m	class:CGenaralSocket	file:
+m_pInstance	GenaralSocket.h	/^        static  CGenaralSocket *m_pInstance;$/;"	m	class:CGenaralSocket
+m_socketTcpServer	GenaralSocket.h	/^        Socketfd  m_socketTcpServer;$/;"	m	class:CGenaralSocket
+m_socketTcpServerAddr	GenaralSocket.h	/^        Socketaddr m_socketTcpServerAddr;$/;"	m	class:CGenaralSocket
+main	TcpServer.cpp	/^int main()$/;"	f
